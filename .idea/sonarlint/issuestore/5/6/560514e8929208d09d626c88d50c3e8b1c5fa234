@@ -1,0 +1,16 @@
+
+‚
+java:S1488("eImmediately return this expression instead of assigning it to the temporary variable "allParameters".(ä¾¢‰8ÏØéÄë1
+w
+java:S1450"\Remove the "fileReference" field and declare it as a local variable in the relevant methods.(Ú›]8„üóÄë1
+O
+java:S6126
+"2Replace this String concatenation with Text block.(îÒÊ©8ÑØéÄë1
+n
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Î°öĞ8ÒØéÄë1
+G	java:S106"+Replace this use of System.out by a logger.(Î°öĞ8ÒØéÄë1
+G	java:S106"+Replace this use of System.out by a logger.(Ù›ø©8ÓØéÄë1
+F	java:S106"+Replace this use of System.out by a logger.(µ¶ş8ÓØéÄë1
+G	java:S106!"+Replace this use of System.out by a logger.(ÏŞ™ë8ÔØéÄë1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¥‰õÄë1

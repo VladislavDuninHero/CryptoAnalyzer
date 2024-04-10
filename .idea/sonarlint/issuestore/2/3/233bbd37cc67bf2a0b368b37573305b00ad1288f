@@ -1,0 +1,8 @@
+
+€
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(´¯üúúÿÿÿÿ8‡§¥ì1
+”
+java:S1450"rRemove the "bruteForceIsStatisticPercentSuccess" field and declare it as a local variable in the relevant methods.(¹îÿ„ûÿÿÿÿ8€¤¥ì1
+G	java:S106f"+Replace this use of System.out by a logger.(ÀŠï8Ò§¥ì1
+i
+java:S1068"GRemove this unused "bruteForceIsStatisticPercentSuccess" private field.(¹îÿ„ûÿÿÿÿ8Š¤¥ì1
