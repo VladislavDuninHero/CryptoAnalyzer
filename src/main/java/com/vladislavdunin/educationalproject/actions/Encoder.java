@@ -27,13 +27,13 @@ public class Encoder implements Action {
     private String toEncoded(String data, int key) {
         char[] arrayOfData = data.toCharArray();
         StringBuilder builder = new StringBuilder();
-        int sizeOfData = Constants.ALL_SYMBOLS.size();
+        int sizeOfAllSymbols = Constants.ALL_SYMBOLS.size();
 
         for (int i = 0; i < arrayOfData.length; i++) {
-            for (int j = 0; j < sizeOfData; j++) {
+            for (int j = 0; j < sizeOfAllSymbols; j++) {
                 if (Constants.ALL_SYMBOLS.get(j).equals(Character.toString(arrayOfData[i]))) {
-                    if ((j + key) > sizeOfData) {
-                        builder.append(Constants.ALL_SYMBOLS.get(j - sizeOfData + key));
+                    if ((j + key) >= sizeOfAllSymbols) {
+                        builder.append(Constants.ALL_SYMBOLS.get(j - sizeOfAllSymbols + key));
                         break;
                     }
                     builder.append(Constants.ALL_SYMBOLS.get(j + key));
